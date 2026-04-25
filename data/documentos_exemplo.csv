@@ -1,0 +1,6 @@
+documento,tipo,origem,prazo_dias,tema_principal,complexidade,acao_recomendada
+Edital Inovacao Industria 2026,edital,agencia_fomento,30,PD&I,alta,mapear requisitos e elegibilidade
+Contrato Parceria Tecnologica,contrato,empresa_parceira,15,propriedade intelectual,media,revisar clausulas criticas
+Relatorio Sustentabilidade Textil,relatorio,industria,0,indicadores ESG,media,extrair indicadores e lacunas
+Artigo DPP Cadeia Textil,artigo,base_academica,0,rastreabilidade,baixa,resumir contribuicoes tecnicas
+Termo de Referencia PMO,termo_referencia,setor_publico,20,governanca de projetos,alta,gerar checklist de aderencia
