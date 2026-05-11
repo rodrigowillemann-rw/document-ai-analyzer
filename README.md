@@ -47,13 +47,6 @@ src/        pipeline futuro de processamento documental
 - Reducao de tempo em triagem documental
 - Base para integracao com sistemas de gestao de projetos
 
-## Proximos Passos
-
-- Criar exemplos de documentos sinteticos.
-- Implementar pipeline de OCR.
-- Testar classificacao com embeddings.
-- Criar interface simples para upload e analise.
-
 ## Autor
 
 Rodrigo Willemann  
