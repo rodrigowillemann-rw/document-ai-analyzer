@@ -40,14 +40,36 @@ prompts/    modelos de prompts para analise assistida
 src/        pipeline futuro de processamento documental
 ```
 
-## Resultados e Aprendizados Esperados
+## Como Executar
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook notebooks/document-ai-demo.ipynb
+```
+
+## Resultados e Aprendizados
 
 - Classificacao automatizada por tipo de documento
 - Extracao de prazos, entidades e temas
 - Reducao de tempo em triagem documental
 - Base para integracao com sistemas de gestao de projetos
 
+## Resultado Demonstrativo
+
+Com os dados sinteticos em `data/documentos_exemplo.csv`, o notebook prioriza documentos para triagem assistida por IA.
+
+| Documento | Tipo | Prioridade |
+| --- | --- | ---: |
+| Termo de Referencia PMO | termo_referencia | 60 |
+| Contrato Parceria Tecnologica | contrato | 50 |
+| Edital Inovacao Industria 2026 | edital | 40 |
+| Relatorio Sustentabilidade Textil | relatorio | 20 |
+| Artigo DPP Cadeia Textil | artigo | 10 |
+
 ## Autor
 
 Rodrigo Willemann  
 Email: rodrigo.willemann@gmail.com
+
